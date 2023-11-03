@@ -1,0 +1,14 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Warna utama (primary color) untuk dark mode -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <!-- Warna teks utama (primary text color) untuk dark mode -->
+        <item name="android:textColorPrimary">@color/darkTextColorPrimary</item>
+        <!-- Warna latar belakang utama (primary background color) untuk dark mode -->
+        <item name="android:windowBackground">@color/darkBackground</item>
+        <!-- ... item-item lainnya untuk dark mode ... -->
+    </style>
+</resources>
